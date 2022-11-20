@@ -1,3 +1,5 @@
+package Task01;
+
 public class Lucky {
 
     static int x = 0;
@@ -24,12 +26,8 @@ public class Lucky {
         t1.join();
         t2.start();
         t1.join();
-        t2.join();
         t3.start();
         t1.join();
-        t2.join();
-        t3.join();
         System.out.println("Total: " + count);
     }
-}
 }
